@@ -1,3 +1,0 @@
-lg=large device
-md=medium device
-sm=small device
