@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/93a6ef976e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./index1.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FFFFE9',
+                        secondary: '#201F1F',
+                        tertiary: '#8D8D8D',
+                        accent: '#F3F25B',
+                    },
+                    fontFamily: {
+                        Inter: 'Inter',
+                    },
+                    height: {
+                        '45rem': '45rem',
+                    },
+                    width: {
+                        '30rem': '30rem',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-Inter h-screen w-screen bg-primary">
+
+    <div>
+        <h2 class="text-transparent h-1400px w-53px text-4xl" style="background-color:#cbcda9 ">yo</h2>
+    </div>
+
+    <header>
+        <nav class="flex items-center justify-center my-4">
+            <ul class="sm:flex hidden gap-5 h-22px w-303px">
+                <li class="font-semibold"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="font-bold"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mx-auto text-center my-16">
+        <div class="tracking-tighter">
+            <h1 class="text-8xl font-bold font-black font-serif tracking-tighter text-accent">Contact Us</h1>
+        </div>
+
+        <div class="pt-3 text-xl font-medium">
+            <p>Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
+        </div>
+
+        <div class="my-36">
+            <nav class="flex content-center justify-center">
+                <div>
+                    <form class="bg-secondary h-[45rem] w-[30rem] border border-transparent rounded-lg">
+                        <p class="text-accent font-serif text-3xl text-left border border-transparent pt-20 mx-10">Get in touch with us</p>
+                        <br/>
+                        <p class="text-tertiary text-left mx-10">Name</p>
+                        <p class="text-tertiary border border-tertiary bg-zinc-700 p-3 rounded-sm ml-10 mr-10 m-2 text-left">Rachel Joe</p>
+                        <br/>
+                        <p class="text-tertiary text-left mx-10">Email</p>
+                        <p class="text-tertiary border border-tertiary bg-zinc-700 p-3 rounded-sm ml-10 mr-10 mx-1 m-2 text-left">Rachel@domain.com</p>
+                        <br/>
+                        <p class="text-tertiary text-left mx-10">Message</p>
+                        <p class="text-tertiary border border-tertiary bg-zinc-700 p-3 pb-14 rounded-sm ml-10 mr-10 mx-1 m-2 text-left">Type your query here.....</p>
+
+                        <p class="text-left ml-10">
+                            <button class="border bg-accent font-serif p-2 pl-5 pr-5 my-5 rounded-sm">Send my message</button>
+                        </p>
+                    </form>
+                </div>
+
+                <div>
+                    <img src="map.png" class="h-[45rem] w-[30rem] rounded-lg">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</body>
+</html>
